@@ -1,0 +1,20 @@
+body {
+    background-color: #26221c;
+    color: #ffffd7;
+}
+
+h1 {
+    text-align: center;
+}
+
+#coffeebutton {
+display: block;
+margin: 0 auto;
+}
+
+#innerdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

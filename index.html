@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title> Simple Page </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> Welcome to this page </h1>
+        <p><br><br><br><br></p>
+        <button id="coffeebutton">
+            click here
+        </button>
+        <a href="https://www.wikipedia.org/">
+        <button>
+            clickclickclick
+        </button>
+        </a>
+        <div id="innerdiv"></div>
+        <script>
+            function changeText() {
+                document.getElementById("innerdiv").innerHTML += "<p>Coffee is brewing...</p>";
+            }
+
+            document.getElementById("coffeebutton").addEventListener("click", changeText());
+        </script>
+    </body>
+</html>
